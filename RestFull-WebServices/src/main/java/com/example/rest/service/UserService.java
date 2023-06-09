@@ -1,7 +1,6 @@
     package com.example.rest.service;
 
     import com.example.rest.dto.UserDto;
-    import com.example.rest.entity.User;
 
     import java.util.List;
 
@@ -12,7 +11,7 @@
 
          UserDto updateUser(UserDto user);
 
-        UserDto getUser(Long id);
+        UserDto getUserById(Long id);
 
         List<UserDto> getAllUsers();
 
