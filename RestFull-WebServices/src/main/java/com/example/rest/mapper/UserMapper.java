@@ -5,7 +5,7 @@ import com.example.rest.entity.User;
 
 public class UserMapper {
 
-
+/* this is manually written
     public static UserDto mapToUserDto(User user) {
         UserDto userDto = new UserDto(user.getId(), user.getUsername(), user.getPassword(), user.getEmail());
 
@@ -16,5 +16,5 @@ public class UserMapper {
         User user = new User(userDto.getId(), userDto.getUsername(), userDto.getPassword(), userDto.getEmail());
 
         return user;
-    }
+    }*/
 }
