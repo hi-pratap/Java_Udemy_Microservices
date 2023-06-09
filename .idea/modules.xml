@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MicroservicesNewUdemy.iml" filepath="$PROJECT_DIR$/MicroservicesNewUdemy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RestFull-WebServices/RestFull-WebServices.iml" filepath="$PROJECT_DIR$/RestFull-WebServices/RestFull-WebServices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-RestApi/SpringBoot-RestApi.iml" filepath="$PROJECT_DIR$/SpringBoot-RestApi/SpringBoot-RestApi.iml" />
+    </modules>
+  </component>
+</project>
