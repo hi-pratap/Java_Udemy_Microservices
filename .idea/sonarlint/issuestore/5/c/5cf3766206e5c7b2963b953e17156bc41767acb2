@@ -1,0 +1,15 @@
+
+@
+java:S1165	"Make this "email" field final.(ª«Υμωÿÿÿÿ8ίνύ‰1
+>
+java:S1165
+"!Make this "username" field final.(‘σΉ²8ΰνύ‰1
+A
+java:S1165"Make this "userID" field final.(³ ϋΑÿÿÿÿÿ8ΰνύ‰1
+K
+java:S1068	")Remove this unused "email" private field.(ª«Υμωÿÿÿÿ8βνύ‰1
+I
+java:S1068
+",Remove this unused "username" private field.(‘σΉ²8βνύ‰1
+L
+java:S1068"*Remove this unused "userID" private field.(³ ϋΑÿÿÿÿÿ8βνύ‰1

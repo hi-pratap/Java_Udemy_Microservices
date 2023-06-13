@@ -46,7 +46,8 @@ public class UserServiceImpl implements UserService {
     @Override
     public UserDto updateUser(UserDto user) {
 
-        User existingUser = userRepository.findById(user.getId()).orElseThrow(() -> new ResourceNotFoundException("User", "id", user.getId()));
+        User existingUser = userRepository.findById(user.getId()).orElseThrow(()
+                -> new ResourceNotFoundException("User", "id", user.getId()));
         existingUser.setUsername(user.getUsername());
         existingUser.setPassword(user.getPassword());
         existingUser.setEmail(user.getEmail());
@@ -60,7 +61,8 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public UserDto getUserById(Long id) {
-        User user = userRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("User", "id", id));
+        User user = userRepository.findById(id).orElseThrow(() ->
+                new ResourceNotFoundException("User", "id", id));
 
         //  UserDto userDto = UserMapper.mapToUserDto(user);
         //UserDto userDto =modelMapper.map(User.class, UserDto.class);;
@@ -73,7 +75,8 @@ public class UserServiceImpl implements UserService {
         List<User> all = userRepository.findAll();
         //   return all.stream().map(UserMapper::mapToUserDto).collect(Collectors.toList());
         //return all.stream().map((user) -> modelMapper.map(user, UserDto.class)).collect(Collectors.toList());
-        return all.stream().map((user) -> AutoUserMapper.MAPPER.mapToUserDto(user)).collect(Collectors.toList());
+        return all.stream().map((user) ->
+                AutoUserMapper.MAPPER.mapToUserDto(user)).collect(Collectors.toList());
     }
 
     @Override
