@@ -1,0 +1,16 @@
+
+X	java:S125"<This block of commented-out lines of code should be removed.(ùà8ëÊÚş‰1
+]	java:S125("<This block of commented-out lines of code should be removed.(ùİ€Ûüÿÿÿÿ8íÊÚş‰1
+X	java:S1258"<This block of commented-out lines of code should be removed.(¯ªÁ8ğÊÚş‰1
+]	java:S125C"<This block of commented-out lines of code should be removed.(Óí†èùÿÿÿÿ8ñÊÚş‰1
+X	java:S125L"<This block of commented-out lines of code should be removed.(åõïò8òÊÚş‰1
+t
+java:S6204O"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ã¼Àƒùÿÿÿÿ8òÊÚş‰1
+T
+java:S1611N"2Remove the parentheses around the "user" parameter(¾´ßúıÿÿÿÿ8òÊÚş‰1
+r
+java:S1612N"PReplace this lambda with method reference 'AutoUserMapper.MAPPER::mapToUserDto'.(¾´ßúıÿÿÿÿ8óÊÚş‰1
+]
+java:S1854T"@Remove this useless assignment to local variable "existingUser".(º×«8óÊÚş‰1
+N
+java:S1481T"1Remove this unused "existingUser" local variable.(º×«8ôÊÚş‰1

@@ -18,4 +18,7 @@ public interface AutoUserMapper {
     UserDto mapToUserDto(User user);
 
 
+	
 }
+
+

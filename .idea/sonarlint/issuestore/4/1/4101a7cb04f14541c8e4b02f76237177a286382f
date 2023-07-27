@@ -1,0 +1,15 @@
+
+B
+java:S1165"%Make this "resourceName" field final.(Ä¶î¿8Àíæü‰1
+D
+java:S1165	""Make this "feildName" field final.(Äìß°úÿÿÿÿ8Áíæü‰1
+E
+java:S1165
+"#Make this "feildValue" field final.(•ñ·æüÿÿÿÿ8Áíæü‰1
+M
+java:S1068"0Remove this unused "resourceName" private field.(Ä¶î¿8Çíæü‰1
+O
+java:S1068	"-Remove this unused "feildName" private field.(Äìß°úÿÿÿÿ8Èíæü‰1
+P
+java:S1068
+".Remove this unused "feildValue" private field.(•ñ·æüÿÿÿÿ8Èíæü‰1

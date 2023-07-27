@@ -5,6 +5,10 @@
       <list>
         <option value="$PROJECT_DIR$/SpringBoot-RestApi/pom.xml" />
         <option value="$PROJECT_DIR$/RestFull-WebServices/pom.xml" />
+        <option value="$PROJECT_DIR$/Employee-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Department-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Data-Jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/Blog-App/pom.xml" />
       </list>
     </option>
   </component>
